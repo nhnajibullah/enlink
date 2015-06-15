@@ -80,6 +80,9 @@ section{
     height: auto;
     padding-bottom: 100px;
 }
+section .img-banner{
+		max-width:200px;
+}
 section h2{
     border-bottom: 4px solid #ec3030;
     color: #000000;
