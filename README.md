@@ -1,5 +1,5 @@
 # enlink
-Shorten Your Long URL
+Shorten Your Long URL, created using PHP, MySQL, Ajax Jquery, CSS3
 
 #Demo
 
