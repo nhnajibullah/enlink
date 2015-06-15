@@ -90,7 +90,7 @@
 </header>
 
 <section>
-    <img src='images/logo-enlink-crop-200px.png' alt='enlink - shorten your long url - everything is linked'/>
+    <img class='img-banner' src='images/logo-enlink-crop-200px.png' alt='enlink - shorten your long url - everything is linked'/>
     <article>
         <h2>Shorten Your Long URL Here</h2>
         <div align='center'>
