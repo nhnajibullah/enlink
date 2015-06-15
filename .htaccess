@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^/?([a-zA-Z0-9]+)/?$ index.php/$1
+
+#error excecution
+ErrorDocument 403 '<p align=center>Maaf Anda Tidak diizinkan masuk :p</p>'
+ErrorDocument 404 http://localhost/enlink/404.php
+Options All -Indexes

@@ -1,0 +1,236 @@
+/*
+* CSS by Nur Hasan Najibullah
+* Twitter @NHNajibullah
+* Copyright 2015
+*/
+
+body{
+    margin:0;
+    background-image: url('../images/back.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    font-family: cambria, calibri, sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #ec3030;
+    height:50px;
+    margin: 0;
+    z-index:99;
+    border-bottom: 5px solid #ffffff;
+	border-radius: 0px 0px 20px 20px;
+	-ms-border-radius: 0px 0px 20px 20px;
+	-webkit-border-radius: 0px 0px 20px 20px;
+	-moz-border-radius: 0px 0px 20px 20px;
+	-o-border-radius: 0px 0px 20px 20px;
+}
+.header-container{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+header img{
+    float: left;
+    background-color: #ffffff;
+    height:35px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+}
+nav{
+    margin: 0;
+    float: right;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    color: #ffffff;
+    margin-right: 5px;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+    margin-top: 0px;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #ffffff;
+    color: #ec3030;
+    padding: 3px;
+	transition: all 0.5s;
+}
+nav a:active{
+    background-color: blue;
+    color: #ffffff;
+    padding: 3px;
+	transition:all 0.05s;
+}
+section{
+    padding: 60px 20px 20px 20px;
+    margin: 0 auto;
+    max-width: 1024px;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    height: auto;
+    padding-bottom: 100px;
+}
+section h2{
+    border-bottom: 4px solid #ec3030;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    -ms-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+article{
+    margin: 0 auto;
+}
+.style-form{
+    margin: 0 auto;    
+}
+.input-container{
+    border: 3px solid #ec3030;
+    border-radius:3px;
+    -ms-border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -o-border-radius:3px;
+    width:350px;
+    height:50px;
+    background-color: #ffffff;
+}
+.input-container .input-text{
+    border: none;
+    width:240px;
+    height: 48px;
+    font-size: 20px;
+}
+.input-container .input-submit{
+    border: none;
+    width:100px;
+    height: 43px;
+    color: #ffffff;
+    background-color: #ec3030;
+    cursor: pointer;
+    border-radius: 10px;
+    -ms-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.input-container .input-submit:hover{
+    color: #ffffff;
+    opacity: 0.5;
+    background-color: blue;
+    transition: all 0.8s;
+}
+.input-container .input-submit:active{
+    color: #ffffff;
+    opacity: 0.5;
+    background-color: green;
+    transition: all 0.05s;
+}
+#result{
+    border: 3px solid #ec3030;
+    border-radius:3px;
+    -ms-border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -o-border-radius:3px;
+    width:350px;
+    height:50px;
+    background-color: #ffffff;
+    padding:5px;
+    font-size: 18px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ec3030;
+    height:30px;
+    margin: 0;
+    border-top: 5px solid #ffffff;
+	border-radius: 20px 20px 0px 0px;
+	-ms-border-radius: 20px 20px 0px 0px;
+	-moz-border-radius: 20px 20px 0px 0px;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	-o-border-radius: 20px 20px 0px 0px;
+}
+.float-left{float:left;}
+.float-right{float:right;}
+.footer-container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.footer-content{
+    color:#ffffff;
+    padding-top: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-content a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.footer-content a:hover{
+    color:#000000;
+    text-decoration: underline;
+}
+
+/*
+ *Responsive by Nur Hasan Najibullah
+ *
+*/
+@media screen and (max-width:700px){
+    footer{
+        height: auto;
+    }
+    .footer-container{
+        text-align: center;
+        float: none;
+    }
+    .float-left{float:none;}
+    .float-right{float:none;}
+}
+@media screen and (max-width:500px){
+    section img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px){
+    header{
+        height: auto;
+    }
+    header img{
+        float: none;
+    }
+    nav{
+        float: none;
+    }
+    .input-container{
+        width:auto;
+        font-size: 16px;
+    }
+    .input-container .input-text{
+        width:60%;
+    }
+    .input-container .input-submit{
+        width:40%;
+        padding: 2px;
+    }
+    #result{
+       width:auto;
+    }
+    section{
+        padding-top: 150px;
+    }
+}
