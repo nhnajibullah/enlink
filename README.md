@@ -3,4 +3,6 @@ Enlink is application which can Shorten Your Long URL, created using PHP, MySQL,
 
 #Demo
 
+# Production purpuse only
+
 For demo, you can visit http://enlink.tk
